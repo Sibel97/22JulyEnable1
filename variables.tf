@@ -8,3 +8,11 @@ variable "toplevel_block_size" {
 variable "toplevel_inst_type" {
   default = "t2.medium"
 }
+
+variable "toplevel_key_name" {
+  default = "LondonKey"
+}
+
+variable "toplevel_security_groups" {
+  default = "ssh"
+}

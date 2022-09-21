@@ -9,3 +9,11 @@ variable "eph_block_size" {
 variable "inst_type" {
   default = "t2.micro"
 }
+
+variable "key_name" {
+  default = "LondonKey"
+}
+
+variable "security_groups" {
+  default = "ssh"
+}
