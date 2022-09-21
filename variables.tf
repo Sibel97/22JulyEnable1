@@ -9,10 +9,10 @@ variable "toplevel_inst_type" {
   default = "t2.medium"
 }
 
-variable "toplevel_key_name" {
+variable "topkey" {
   default = "LondonKey"
 }
 
-variable "toplevel_security_groups" {
+variable "topsec" {
   default = "ssh"
 }
